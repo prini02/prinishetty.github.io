@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  font-family: 'Oswald', sans-serif !important;
+  color: #3A3A3C;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.header {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.info {
+  margin-left: 5%
+}
+.indicator {
+  background-color: #E2E2E2;
+  padding: 1%;
+}
+h4 {
+  margin-left: 20px;
+}
+.line {
+  border-top: 1px solid #7E7D7D;
+}
+
+hr.border {
+  border-top: 15px solid #DFE6ED;
+}
+
+.btn-primary {
+ margin-right: 5%;
+	float: right;
+	text-align: center;
+	background-color: #32324E;
+	height: 50px;
+	width: 100px;
+	border-radius: 10px;
+	
+	
+}
+.cart {
+	background-color: #E2E2E2;
+}
+
+.deet {
+	margin-left: 5%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
